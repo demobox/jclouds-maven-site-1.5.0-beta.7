@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-19T12:54:53.520">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.7/labs/smartos-ssh/src/main/java/org/jclouds/smartos/compute/domain/DataSet.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.ArrayList'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Collection'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.List'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.7/labs/smartos-ssh/src/main/java/org/jclouds/smartos/compute/domain/VM.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.IOException'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Collection'
+</violation>
+<violation beginline="158" endline="158" begincolumn="46" endcolumn="54" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.smartos.compute.domain" class="VM" method="getPublicAddress" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.7/labs/smartos-ssh/src/main/java/org/jclouds/smartos/compute/domain/VmNIC.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="36" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.inject.name.Named'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.UUID'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.7/labs/smartos-ssh/src/main/java/org/jclouds/smartos/compute/functions/VMToNodeMetadata.java">
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.sun.corba.se.spi.activation.Server'
+</violation>
+<violation beginline="35" endline="35" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.omg.PortableInterceptor.ACTIVE'
+</violation>
+<violation beginline="39" endline="39" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.IOException'
+</violation>
+<violation beginline="40" endline="40" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.smartos.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Collection'
+</violation>
+<violation beginline="100" endline="103" begincolumn="8" endcolumn="8" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.smartos.compute.functions" class="VMToNodeMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>
